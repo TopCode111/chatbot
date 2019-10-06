@@ -20,7 +20,7 @@ def requirements():
 packages = find_packages(exclude=['tests*'])
 
 with codecs.open('README.rst', 'r', 'utf-8') as fd:
-    fn = os.path.join('telegram', 'version.py')
+    fn = os.path.join('', 'version.py')
     with open(fn) as fh:
         code = compile(fh.read(), fn, 'exec')
         exec(code)
